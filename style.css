@@ -208,7 +208,19 @@ margin-top:20px;
 line-height:1.7;
 font-size:15px;
 }
+.recommend-card{
 
+background:rgba(255,255,255,.08);
+
+padding:15px;
+
+border-radius:12px;
+
+margin:10px;
+
+display:inline-block;
+
+}
 @media(max-width:900px){
 .dashboard{
 grid-template-columns:1fr;
