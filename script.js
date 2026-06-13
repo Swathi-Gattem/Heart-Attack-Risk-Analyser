@@ -6,7 +6,7 @@ data: {
 datasets: [{
 data: [0,100],
 backgroundColor: [
-'#22c55e',
+'#00ff88',
 '#e5e7eb'
 ],
 borderWidth:0
@@ -46,15 +46,15 @@ if(risk>100) risk=100;
 chart.data.datasets[0].data = [risk,100-risk];
 
 if(risk<40){
-chart.data.datasets[0].backgroundColor=['#22c55e','#e5e7eb'];
+chart.data.datasets[0].backgroundColor=['#00ff88','#e5e7eb'];
 }
 
 else if(risk<70){
-chart.data.datasets[0].backgroundColor=['#f59e0b','#e5e7eb'];
+chart.data.datasets[0].backgroundColor=['#ffcc00','#e5e7eb'];
 }
 
 else{
-chart.data.datasets[0].backgroundColor=['#ef4444','#e5e7eb'];
+chart.data.datasets[0].backgroundColor=['#ff2d55','#e5e7eb'];
 }
 
 chart.update();
